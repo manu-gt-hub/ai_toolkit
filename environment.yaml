@@ -1,4 +1,4 @@
-name: dev_toolkit_min
+name: dev_toolkit
 channels:
   - conda-forge
 dependencies:
@@ -14,6 +14,8 @@ dependencies:
   - whisper
   - ollama
   - openai
+  - notebook           
+  - ipykernel          
   - pip:
       - openai
       - ollama
